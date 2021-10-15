@@ -1,1 +1,9 @@
-// TODO
+.header {
+  max-width: 700px;
+  padding: 20px;
+  margin: 0 auto;
+
+  @media (min-width: 726px) {
+    padding: 40px 20px;
+  }
+}

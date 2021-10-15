@@ -1,7 +1,25 @@
+:root {
+  --primary: #ff57b2;
+  --text: #d7d7d7;
+  --heading: #f8f8f8;
+  --info: #bbbbbb;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-// TODO
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+
+  color: var(--text);
+  background-color: #1a1d23;
+}
